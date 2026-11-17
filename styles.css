@@ -105,3 +105,11 @@ label.radiocard:has(input:checked){border:2px solid var(--accent);background:#ee
 .other-field input:focus-visible {outline: 2px solid var(--accent-2);outline-offset: 2px}
 .other-responses {margin-top: 20px;padding-top: 12px;border-top: 1px solid var(--line)}
 .other-responses ul {margin: 8px 0;padding-left: 24px;overflow-wrap: anywhere}
+/* Explicit write-in submission; prevents unsubmitted text from looking like a vote. */
+.other-entry-row{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.other-entry-row input{flex:1 1 230px;min-width:0}
+.other-entry-row .btn{flex:0 0 auto;white-space:nowrap;padding:10px 14px}
+.other-responses{background:#f7f8fc;border:1px solid #e1e6f2;border-radius:10px;padding:14px 16px;margin-top:18px}
+.other-responses h3{margin-bottom:6px}
+.other-responses li{padding:4px 0;overflow-wrap:anywhere}
+@media(max-width:460px){.other-entry-row .btn{flex:1 1 100%}}
