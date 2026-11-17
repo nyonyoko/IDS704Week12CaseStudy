@@ -97,3 +97,11 @@ label.radiocard:has(input:checked){border:2px solid var(--accent);background:#ee
 .facilitator.presenter .card{font-size:1.12em}
 .facilitator.presenter .score{font-size:58px}
 @media(max-width:600px){.fac-toolbar{padding:12px}.fac-toolbar .row{width:100%}.fac-toolbar .btn{flex:1}}
+
+/* Additional write-in values for Other selections */
+.other-field {margin: 10px 0 16px;padding: 12px 14px;border: 1px solid var(--line);border-radius: 10px;background: #f7f8fc}
+.other-field label {display: block;color: var(--accent);font-size: 13px;font-weight: 600;margin-bottom: 6px}
+.other-field input {width: 100%;max-width: 500px;padding: 10px;border: 1px solid #b9c3dc;border-radius: 8px;background: #fff;color: var(--ink);font: inherit}
+.other-field input:focus-visible {outline: 2px solid var(--accent-2);outline-offset: 2px}
+.other-responses {margin-top: 20px;padding-top: 12px;border-top: 1px solid var(--line)}
+.other-responses ul {margin: 8px 0;padding-left: 24px;overflow-wrap: anywhere}
